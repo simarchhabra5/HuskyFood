@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Project@localhost" uuid="bcc790f8-b792-4b1d-814d-fe17b7de4fd4">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/Project</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="zeroDateTimeBehavior" value="CONVERT_TO_NULL" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Entities/Hibernate" uuid="e8770191-25b7-4b2e-8d8a-7d5d6ab9648a">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+/Users/saheb/Desktop/backup1234/eMusicStore 6/META-INF/persistence.xml</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/Project?serverTimezone=UTC</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="yearIsDateType" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="dataSource" uuid="c31a5afd-9ce3-42b3-ba84-95ca20db8d00">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>spring
+
+/Users/saheb/Desktop/backup1234/eMusicStore 6/src/main/webapp/WEB-INF/applicationContext.xml</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/Project?serverTimezone=UTC</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="yearIsDateType" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>

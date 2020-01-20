@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+
+
+    <persistence-unit name="Entities" transaction-type="RESOURCE_LOCAL">
+        <class>com.Project.model.Product</class>
+        <class>com.Project.model.Authorities</class>
+        <class>com.Project.model.Users</class>
+        <class>com.Project.model.Cart</class>
+
+        <properties>
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"></property>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/Project?serverTimezone=UTC"></property>
+            <property name="hibernate.connection.username" value="root"></property>
+            <property name="hibernate.connection.password" value="waheguru13"></property>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"></property>
+            <property name="hibernate.hbm2ddl.auto" value="validate" />
+            <property name="hibernate.show_sql" value="true" />
+        </properties>
+    </persistence-unit>
+
+</persistence>
